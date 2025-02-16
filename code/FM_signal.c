@@ -12,9 +12,9 @@ int main() {
         return 1;
     }
 
-    double fc = 100;   // Carrier frequency
+    double fc = 45;   // Carrier frequency
     double fs = fc*100; // Sampling frequency
-    double fm = 0.1;  // Message frequency
+    double fm = 1.5;  // Message frequency
     double Am = 1;    // Message amplitude
     double Ac = 1;    // Carrier amplitude
     double kf = 5;    // Frequency sensitivity
