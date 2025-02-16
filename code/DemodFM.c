@@ -22,7 +22,7 @@ int main(){
 	double T_1, T_2, T_3, T_4;
 	double TF_real, TF_img;
 	double x, f_m = 1.5, f_c = 45, f_s = 4500, W_c, Q_e;
-	int Length = 2000;
+	int Length = 20000;
 
 	Q_e = 1/(2*0.66*f_c*f_m);
 	W_c = 2*PI*f_c;
