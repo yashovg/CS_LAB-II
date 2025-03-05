@@ -26,7 +26,7 @@ int main() {
 
     // Compute Envelope Detector output
     envelopeDetector(IDFT_output, envelope, N);
-
+    
     // Save Envelope Detector output to file
     FILE *env_file = fopen("Envelope_output.txt", "w");
     if (!env_file) {
