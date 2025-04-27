@@ -21,7 +21,7 @@ void generate_inter_arrival_times(double intr_arrival_time[], int N, double arri
         intr_arrival_time[i] = (-1.0 / arrive_rate) * log(P / arrive_rate);
         printf("%lf\t", intr_arrival_time[i]);
         pkts_time = pkts_time + intr_arrival_time[i];
-    }
+    }s
 
     printf("\nTotal packets time: %lf\n", pkts_time);
 }
